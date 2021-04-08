@@ -1,0 +1,15 @@
+.input {
+    display: grid;
+    place-items: center;
+}
+
+.card {
+    padding: 25px;
+    margin: 25px;
+    width: 40%;
+}
+
+.innerInput {
+    display: grid;
+    grid-template-rows: auto;
+}

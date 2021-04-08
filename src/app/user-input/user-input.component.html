@@ -1,0 +1,15 @@
+<div class="input">
+  <mat-card class="card">
+    <mat-card-title>Raices de un polinomio 🧮</mat-card-title>
+    <mat-card-subtitle>
+      Aplicación web realizada para calcular las raices de un polinomio de tercer grado
+    </mat-card-subtitle>
+    <div class="innerInput">
+      <mat-form-field appearance="fill">
+        <mat-label>Polinomio</mat-label>
+        <input matInput [(ngModel)]="data" name="data" placeholder="Ej. x^3 + x^2 + x + 1">
+      </mat-form-field>
+      <button mat-flat-button color="primary" type="submit" (click)="sendToParent($event)">Enviar polinomio</button>
+    </div>
+  </mat-card>
+</div>

@@ -1,0 +1,4 @@
+.output {
+    display: grid;
+    place-items: center;
+}

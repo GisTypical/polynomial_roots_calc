@@ -1,0 +1,13 @@
+<div class="output">
+  <div *ngIf="isValido == true">
+    <mat-card>
+      <mat-card-title>Resultado ✅</mat-card-title>
+      <mat-card-subtitle>
+        Las raices para el polinomio <ng-katex [equation]=polinomio></ng-katex> son:
+      </mat-card-subtitle>
+      <div *ngFor="let values of equation" >
+        <ng-katex [equation]=values></ng-katex> 
+      </div>
+    </mat-card>
+  </div>
+</div>
